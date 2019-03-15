@@ -1,0 +1,33 @@
+{
+  "name": "storage-pod",
+  "description": "A simple storage module.",
+  "version": "3.0.0",
+  "keywords": [
+    "storage",
+    ""
+  ],
+  "homepage": "https://github.com/Ryzzzen/samss",
+  "bugs": {
+    "url": "https://github.com/Ryzzzen/samss/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Ryzzzen",
+      "email": "saneros35@protonmail.com",
+      "web": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:Ryzzzen/samss"
+  },
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php/"
+    }
+  ],
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
