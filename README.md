@@ -40,7 +40,7 @@ Storage.load().then(() => {
   .add('this', ['is', 'a', 'default', 'value'])
   .end();
 
-	await Storage.save();
+	// Storage#save is already called by Storage#default#end, no need to call it!
 }
 ```
 
