@@ -9,9 +9,9 @@
     "file",
     "json"
   ],
-  "homepage": "https://github.com/Ryzzzen/storage-pod",
+  "homepage": "https://github.com/Ryzzzen/a-capsule",
   "bugs": {
-    "url": "https://github.com/Ryzzzen/storage-pod/issues"
+    "url": "https://github.com/Ryzzzen/a-capsule/issues"
   },
   "maintainers": [
     {
@@ -22,14 +22,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:Ryzzzen/storage-pod"
+    "url": "github:Ryzzzen/a-capsule"
   },
-  "licenses": [
-    {
-      "name": "MIT",
-      "url": "https://www.opensource.org/licenses/mit-license.php/"
-    }
-  ],
+  "license": "(MIT OR Apache-2.0)",
   "devDependencies": {
     "jasmine": "^3.1.0"
   }
