@@ -4,7 +4,7 @@
 #### Changelog
 
 > - 3.0.0 is out
-> - storage-pod is now storage-pod!
+> - SAMSS (Simple And Modular Storage System) is now storage-pod!
 
 storage-pod is easy to use:
 
