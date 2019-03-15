@@ -34,14 +34,14 @@ Using the File Storage
 const { FileStorage } = require('a-capsule');
 let Storage = new FileStorage('file.json');
 
-Storage.load().then(() => {
+Storage.load().then(async () => {
   await Storage.default()
   .add('hello', 'world')
   .add('this', ['is', 'a', 'default', 'value'])
   .end();
 
 	// Storage#save is already called by Storage#default#end, no need to call it!
-}
+});
 ```
 
 Using the Encrypted Storage

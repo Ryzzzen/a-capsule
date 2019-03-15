@@ -12,7 +12,6 @@ class Storage {
   }
 
   get(k) {
-    console.dir(this._store);
     return this._store[k];
   }
 
