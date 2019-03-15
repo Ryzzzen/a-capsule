@@ -1,25 +1,28 @@
 {
-  "name": "storage-pod",
+  "name": "a-capsule",
   "description": "A simple storage module.",
   "version": "3.0.0",
   "keywords": [
     "storage",
-    ""
+    "simple",
+    "encryption",
+    "file",
+    "json"
   ],
-  "homepage": "https://github.com/Ryzzzen/samss",
+  "homepage": "https://github.com/Ryzzzen/storage-pod",
   "bugs": {
-    "url": "https://github.com/Ryzzzen/samss/issues"
+    "url": "https://github.com/Ryzzzen/storage-pod/issues"
   },
   "maintainers": [
     {
       "name": "Ryzzzen",
-      "email": "saneros35@protonmail.com",
+      "email": "ryzzzen@protonmail.com",
       "web": ""
     }
   ],
   "repository": {
     "type": "git",
-    "url": "github:Ryzzzen/samss"
+    "url": "github:Ryzzzen/storage-pod"
   },
   "licenses": [
     {

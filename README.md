@@ -1,12 +1,12 @@
 
-# storage-pod
+# a-capsule
 
 #### Changelog
 
 > - 3.0.0 is out
-> - SAMSS (Simple And Modular Storage System) is now storage-pod!
+> - SAMSS (Simple And Modular Storage System) is now a-capsule!
 
-storage-pod is easy to use:
+a-capsule is easy to use:
 
   - Lightweight
   - Contains 3 storage types: Storage, FileStorage and EncryptedStorage.
@@ -14,24 +14,24 @@ storage-pod is easy to use:
 
 ### Installation
 
-storage-pod requires zero dependencies.
+a-capsule requires zero dependencies.
 
-Install storage-pod using npm.
+Install a-capsule using npm.
 
 ```sh
-$ npm i storage-pod
+$ npm i a-capsule
 ```
 
 ## How to use
 
 Using the Base (Memory) Storage
 ```js
-let Storage = require('storage-pod').getStorage();
+let Storage = require('a-capsule').getStorage();
 Storage.set('hello', 'world');
 ```
 Using the File Storage
 ```js
-const { FileStorage } = require('storage-pod');
+const { FileStorage } = require('a-capsule');
 let Storage = new FileStorage('file.json');
 
 Storage.load().then(() => {
@@ -46,7 +46,7 @@ Storage.load().then(() => {
 
 Using the Encrypted Storage
 ```js
-const { EncryptedStorage } = require('storage-pod');
+const { EncryptedStorage } = require('a-capsule');
 let Storage = new EncryptedStorage('encrypted_file.random.ext', 'THIS_IS_THE_PASSWORD', 'aes256');
 
 await Storage.load();
